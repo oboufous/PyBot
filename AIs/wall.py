@@ -34,16 +34,16 @@ previousMove = MOVE_UP
 ###############################
 # This function is not expected to return anything
 def preprocessing(mazeMap, mazeWidth, mazeHeight, playerLocation, opponentLocation, piecesOfCheese, timeAllowed):
-    
+    pass
     # Example prints that appear in the shell only at the beginning of the game
     # Remove them when you write your own program
-    print("<b>[mazeMap]</b> " + repr(mazeMap))
-    print("<b>[mazeWidth]</b> " + repr(mazeWidth))
-    print("<b>[mazeHeight]</b> " + repr(mazeHeight))
-    print("<b>[playerLocation]</b> " + repr(playerLocation))
-    print("<b>[opponentLocation]</b> " + repr(opponentLocation))
-    print("<b>[piecesOfCheese]</b> " + repr(piecesOfCheese))
-    print("<b>[timeAllowed]</b> " + repr(timeAllowed))
+    #print("<b>[mazeMap]</b> " + repr(mazeMap))
+    #print("<b>[mazeWidth]</b> " + repr(mazeWidth))
+    #print("<b>[mazeHeight]</b> " + repr(mazeHeight))
+    #print("<b>[playerLocation]</b> " + repr(playerLocation))
+    #print("<b>[opponentLocation]</b> " + repr(opponentLocation))
+    #print("<b>[piecesOfCheese]</b> " + repr(piecesOfCheese))
+    #print("<b>[timeAllowed]</b> " + repr(timeAllowed))
 
 ###############################
 # Turn function
@@ -63,7 +63,6 @@ def preprocessing(mazeMap, mazeWidth, mazeHeight, playerLocation, opponentLocati
 ###############################
 # This function is expected to return a move
 def turn(mazeMap, mazeWidth, mazeHeight, playerLocation, opponentLocation, playerScore, opponentScore, piecesOfCheese, timeAllowed):
-    global previousPlayerLocation
     global previousMove
     neighbors = mazeMap[playerLocation]
 
@@ -127,10 +126,7 @@ def turn(mazeMap, mazeWidth, mazeHeight, playerLocation, opponentLocation, playe
             move = MOVE_LEFT
         elif previousMove == MOVE_LEFT:
             move = MOVE_DOWN
-
-    previousPlayerLocation = playerLocation
     previousMove = move
-    print('############ Move: '+ move)
     return move
 
 
