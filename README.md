@@ -1,12 +1,11 @@
 # About
-
-This is the software of the course [PyRat](http://formations.telecom-bretagne.eu/pyrat).
-
-Code by Vincent Gripon
-
-Illustrations by Lauren Lefumeur-Pasdeloup and Christina Roberts
+This project was completed in the scope of a University course taken at Institut Mines-Telecom Atlantique (formerly known as Telecom Bretagne).
+This is a modified version of the original software used for the course [PyRat](http://formations.telecom-bretagne.eu/pyrat).
 
 See full credits [here](http://formations.telecom-bretagne.eu/pyrat/?page_id=264).
+
+# Motivation
+This is the first year programming, algorithmic and graph theory module at Institut Mines-Telecom. The objective of the module is implement path planning algorithms commonly used in graph theory (greedy algorithms, Dijkstra, etc) based on a maze game in Python. The goal is to develop an algorithm and a strategy to navigate in the maze.
 
 # Usage
 
