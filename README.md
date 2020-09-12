@@ -1,11 +1,13 @@
 # About
-This project was completed in the scope of a University course taken at Institut Mines-Telecom Atlantique (formerly known as Telecom Bretagne).
-This is a modified version of the original software used for the course [PyRat](http://formations.telecom-bretagne.eu/pyrat).
+This project was completed in the scope of a final degree project at KTH Royal Institute of Technology.
+The code was initially developed for a University course taken at Institut Mines-Telecom Atlantique (formerly known as Telecom Bretagne).
+This is a modified version of the original software used in the course [PyRat](http://formations.telecom-bretagne.eu/pyrat).
 
 See full credits [here](http://formations.telecom-bretagne.eu/pyrat/?page_id=264).
 
 # Motivation
-This is the first year programming, algorithmic and graph theory module at Institut Mines-Telecom. The objective of the module is implement path planning algorithms commonly used in graph theory (greedy algorithms, Dijkstra, etc) based on a maze game in Python. The goal is to develop an algorithm and a strategy to navigate in the maze.
+The objective of the module is to implement path planning algorithms commonly used in graph theory (greedy algorithms, Dijkstra, etc) based on a maze game in Python. The goal is to develop an algorithm and a strategy capable of navigating an agent in the maze.
+The module should also make it possible to deploy any type of programs, including more advanced one involving recent developments related to Machine Learning.
 
 # Usage
 
